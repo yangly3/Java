@@ -1,0 +1,14 @@
+09-17 12:33:01.264 [main] ERROR IT.Java.Main
+Invalid encoding.
+
+java.io.UnsupportedEncodingException: invalidCharsetName
+	at java.lang.StringCoding.encode(StringCoding.java:440) ~[?:?]
+	at java.lang.String.getBytes(String.java:959) ~[?:?]
+	at IT.Java.Main.main(Main.java:16) [bin/:?]
+09-17 12:33:50.143 [main] ERROR IT.Java.Main
+Invalid encoding.
+
+java.io.UnsupportedEncodingException: invalidCharsetName
+	at java.lang.StringCoding.encode(StringCoding.java:440) ~[?:?]
+	at java.lang.String.getBytes(String.java:959) ~[?:?]
+	at IT.Java.Main.main(Main.java:15) [bin/:?]

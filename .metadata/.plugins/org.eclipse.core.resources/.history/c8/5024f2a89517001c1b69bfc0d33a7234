@@ -1,0 +1,17 @@
+package IT.Java;
+
+import java.util.Scanner;
+
+/**
+ * 输入上次考试�?绩（int）和本次考试�?绩（int），然�?�输出�?绩�??高的百分比，�?留两�?�?数�?（例如，21.75%）
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		int prev = 80;
+		int score = 90;
+		double percent = 0.1;
+		System.out.println("�?绩�??高了?%");
+	}
+
+}

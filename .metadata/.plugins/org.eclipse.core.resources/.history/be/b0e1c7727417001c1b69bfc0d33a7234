@@ -1,0 +1,35 @@
+package IT.Java;
+
+import java.util.*;
+
+/**
+ * Learn Java from https://www.liaoxuefeng.com/
+ * 
+ * @author liaoxuefeng
+ */
+public class Main {
+	public static void main(String[] args) {
+		// 构造从start到end的�?列：
+		final int start = 10;
+		final int end = 20;
+		List<Integer> list = new ArrayList<>();
+		for (int i = start; i <= end; i++) {
+			list.add(i);
+		}
+		// 洗牌算法suffle�?�以�?机交�?�List中的元素�?置:
+		Collections.shuffle(list);
+		// �?机删除List中的一个元素:
+		int removed = list.remove((int) (Math.random() * list.size()));
+		int found = findMissingNumber(start, end, list);
+		System.out.println(list.toString());
+		System.out.println("missing number: " + found);
+		System.out.println(removed == found ? "测试�?功" : "测试失败");
+	}
+
+	/**
+	 * TODO: 找出从start到end的缺失的数字并返回
+	 */
+	static int findMissingNumber(int start, int end, List<Integer> list) {
+		return 0;
+	}
+}

@@ -1,0 +1,17 @@
+
+public class PrimaryStudent extends Student {
+	
+	protected int score;
+	protected int age;
+	protected int grade;
+
+	public PrimaryStudent(String name, int age, int score,int grade) {
+		super(name, age,score);
+		this.grade = grade;
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+}

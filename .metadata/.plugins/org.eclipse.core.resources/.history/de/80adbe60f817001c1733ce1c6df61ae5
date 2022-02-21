@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person p = new Person("Emma", 12);
+		Student s = new Student("Denny", 20, 99);
+		// 
+		Student ps = new PrimaryStudent("Hello", 9, 100, 5);
+		System.out.println(ps.getScore());
+	}
+
+}

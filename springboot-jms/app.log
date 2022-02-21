@@ -1,0 +1,78 @@
+2021-09-17 22:38:18.157  INFO 988 --- [restartedMain] IT.Java.Application                      : Starting Application on DENIS-WS with PID 988 (D:\WorkPlace\Eclipse\springboot-jms\target\classes started by yangly_3@hotmail.com in D:\WorkPlace\Eclipse\springboot-jms)
+2021-09-17 22:38:18.160  INFO 988 --- [restartedMain] IT.Java.Application                      : No active profile set, falling back to default profiles: default
+2021-09-17 22:38:18.208  INFO 988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-17 22:38:18.209  INFO 988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-17 22:38:19.761  INFO 988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-17 22:38:19.772  INFO 988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-17 22:38:19.773  INFO 988 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-09-17 22:38:19.868  INFO 988 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-17 22:38:19.868  INFO 988 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1659 ms
+2021-09-17 22:38:20.006  WARN 988 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-09-17 22:38:20.009  INFO 988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-17 22:38:20.286  INFO 988 --- [restartedMain] hsqldb.db.HSQLDB7BF769A1F3.ENGINE        : Checkpoint start
+2021-09-17 22:38:20.287  INFO 988 --- [restartedMain] hsqldb.db.HSQLDB7BF769A1F3.ENGINE        : checkpointClose start
+2021-09-17 22:38:20.297  INFO 988 --- [restartedMain] hsqldb.db.HSQLDB7BF769A1F3.ENGINE        : checkpointClose synched
+2021-09-17 22:38:20.323  INFO 988 --- [restartedMain] hsqldb.db.HSQLDB7BF769A1F3.ENGINE        : checkpointClose script done
+2021-09-17 22:38:20.449  INFO 988 --- [restartedMain] hsqldb.db.HSQLDB7BF769A1F3.ENGINE        : checkpointClose end
+2021-09-17 22:38:20.450  INFO 988 --- [restartedMain] hsqldb.db.HSQLDB7BF769A1F3.ENGINE        : Checkpoint end - txts: 1
+2021-09-17 22:38:20.493  INFO 988 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-09-17 22:38:20.495  INFO 988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-17 22:38:20.918  INFO 988 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-17 22:38:21.297  WARN 988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-17 22:38:21.367  WARN 988 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-09-17 22:38:21.373  INFO 988 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-17 22:38:21.374  INFO 988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-17 22:38:21.414  INFO 988 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-17 22:38:21.419  INFO 988 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-17 22:38:21.435  INFO 988 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-17 22:38:21.438 ERROR 988 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-12-31 00:56:21.456  INFO 17676 --- [restartedMain] IT.Java.Application                      : Starting Application on DENIS-WS with PID 17676 (D:\WorkPlace\Java\springboot-jms\target\classes started by yangly_3@hotmail.com in D:\WorkPlace\Java\springboot-jms)
+2021-12-31 00:56:21.460  INFO 17676 --- [restartedMain] IT.Java.Application                      : No active profile set, falling back to default profiles: default
+2021-12-31 00:56:21.531  INFO 17676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-31 00:56:21.531  INFO 17676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-31 00:56:22.765  INFO 17676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-31 00:56:22.773  INFO 17676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-31 00:56:22.773  INFO 17676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-12-31 00:56:22.844  INFO 17676 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-31 00:56:22.845  INFO 17676 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1314 ms
+2021-12-31 00:56:22.938  WARN 17676 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-12-31 00:56:22.939  INFO 17676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-31 00:56:23.105  INFO 17676 --- [restartedMain] hsqldb.db.HSQLDB7BF769A1F3.ENGINE        : checkpointClose start
+2021-12-31 00:56:23.106  INFO 17676 --- [restartedMain] hsqldb.db.HSQLDB7BF769A1F3.ENGINE        : checkpointClose synched
+2021-12-31 00:56:23.126  INFO 17676 --- [restartedMain] hsqldb.db.HSQLDB7BF769A1F3.ENGINE        : checkpointClose script done
+2021-12-31 00:56:23.209  INFO 17676 --- [restartedMain] hsqldb.db.HSQLDB7BF769A1F3.ENGINE        : checkpointClose end
+2021-12-31 00:56:23.214  INFO 17676 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-12-31 00:56:23.218  INFO 17676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-31 00:56:23.484  INFO 17676 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-31 00:56:23.692  INFO 17676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-31 00:56:23.752  INFO 17676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-31 00:56:23.945  INFO 17676 --- [restartedMain] IT.Java.Application                      : Started Application in 3.161 seconds (JVM running for 4.016)
+2021-12-31 00:56:28.940 ERROR 17676 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'jms/queue/mail' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Failed to create session factory; nested exception is ActiveMQNotConnectedException[errorType=NOT_CONNECTED message=AMQ219007: Cannot connect to server(s). Tried with all available servers.]
+2021-12-31 00:56:30.344  INFO 17676 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-31 00:56:30.345  INFO 17676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-31 00:56:30.349  INFO 17676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-12-31 00:56:33.193  WARN 17676 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,824] milliseconds.
+2021-12-31 00:56:33.943 ERROR 17676 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'jms/queue/mail' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Failed to create session factory; nested exception is ActiveMQNotConnectedException[errorType=NOT_CONNECTED message=AMQ219007: Cannot connect to server(s). Tried with all available servers.]
+2021-12-31 00:56:38.951 ERROR 17676 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'jms/queue/mail' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Failed to create session factory; nested exception is ActiveMQNotConnectedException[errorType=NOT_CONNECTED message=AMQ219007: Cannot connect to server(s). Tried with all available servers.]
+2021-12-31 00:56:43.955 ERROR 17676 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'jms/queue/mail' - retrying using FixedBackOff{interval=5000, currentAttempts=3, maxAttempts=unlimited}. Cause: Failed to create session factory; nested exception is ActiveMQNotConnectedException[errorType=NOT_CONNECTED message=AMQ219007: Cannot connect to server(s). Tried with all available servers.]
+2021-12-31 00:56:48.961 ERROR 17676 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'jms/queue/mail' - retrying using FixedBackOff{interval=5000, currentAttempts=4, maxAttempts=unlimited}. Cause: Failed to create session factory; nested exception is ActiveMQNotConnectedException[errorType=NOT_CONNECTED message=AMQ219007: Cannot connect to server(s). Tried with all available servers.]
+2021-12-31 00:56:53.970 ERROR 17676 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'jms/queue/mail' - retrying using FixedBackOff{interval=5000, currentAttempts=5, maxAttempts=unlimited}. Cause: Failed to create session factory; nested exception is ActiveMQNotConnectedException[errorType=NOT_CONNECTED message=AMQ219007: Cannot connect to server(s). Tried with all available servers.]
+2021-12-31 00:56:58.979 ERROR 17676 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'jms/queue/mail' - retrying using FixedBackOff{interval=5000, currentAttempts=6, maxAttempts=unlimited}. Cause: Failed to create session factory; nested exception is ActiveMQNotConnectedException[errorType=NOT_CONNECTED message=AMQ219007: Cannot connect to server(s). Tried with all available servers.]
+2021-12-31 00:57:00.550  INFO 17676 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-31 00:57:00.550  INFO 17676 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-31 00:57:00.600  INFO 17676 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

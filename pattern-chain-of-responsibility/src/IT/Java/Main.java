@@ -1,0 +1,23 @@
+package IT.Java;
+
+import java.math.BigDecimal;
+
+import IT.Java.chain.CEOHandler;
+import IT.Java.chain.DirectorHandler;
+import IT.Java.chain.HandlerChain;
+import IT.Java.chain.ManagerHandler;
+import IT.Java.chain.Request;
+
+public class Main {
+
+	public static void main(String[] args) {
+		HandlerChain chain = new HandlerChain();
+		chain.addHandler(new ManagerHandler());
+		chain.addHandler(new DirectorHandler());
+		chain.addHandler(new CEOHandler());
+		chain.process(new Request("Bob", new BigDecimal("123.45")));
+		chain.process(new Request("Alice", new BigDecimal("1234.56")));
+		chain.process(new Request("Bill", new BigDecimal("12345.67")));
+		chain.process(new Request("John", new BigDecimal("123456.78")));
+	}
+}

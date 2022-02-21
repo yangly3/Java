@@ -1,0 +1,10 @@
+
+
+public abstract class Income{
+		private float Income=0;
+		
+		
+		public Income(float Income) {
+			this.Income = Income;
+		}			
+}

@@ -1,0 +1,18 @@
+package IT.Java;
+
+/**
+ * Learn Java from https://www.liaoxuefeng.com/
+ * 
+ * @author liaoxuefeng
+ */
+public class Tel {
+
+	/**
+	 * 测试字符串是�?�是一个有效的"3~4�?区�?�-7~8�?电�?"
+	 */
+	public static boolean isValidTel(String s) {
+		// FIXME:
+		return s.matches("\\d+\\-\\d+");
+	}
+
+}

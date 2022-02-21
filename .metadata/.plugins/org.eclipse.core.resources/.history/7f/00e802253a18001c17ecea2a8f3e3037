@@ -1,0 +1,18 @@
+package IT.Java;
+
+/**
+ * Learn Java from https://www.liaoxuefeng.com/
+ * 
+ * @author liaoxuefeng
+ */
+public class Time {
+
+	/**
+	 * 从"21:05:19"中�??�?�时，分，秒，�?�则抛出IllegalArgumentException
+	 */
+	public static int[] parseTime(String s) {
+		// FIXME:
+		throw new IllegalArgumentException();
+	}
+
+}

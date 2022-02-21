@@ -1,0 +1,19 @@
+package IT.Java;
+
+/**
+ * Learn Java from https://www.liaoxuefeng.com/
+ * 
+ * @author liaoxuefeng
+ */
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		String name = "Xiao Ming";
+		int age = 20;
+		Person p = new Person();
+		// TODO: 利用�??射调用setName和setAge方法:
+
+		System.out.println(p.getName()); // "Xiao Ming"
+		System.out.println(p.getAge()); // 20
+	}
+}

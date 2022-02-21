@@ -1,0 +1,22 @@
+package IT.Java;
+
+import java.util.Arrays;
+
+/**
+ * é™?åº?æŽ’åº?
+ */
+public class Main {
+	public static void main(String[] args) {
+		int[] ns = { 28, 12, 89, 73, 65, 18, 96, 50, 8, 36 };
+		// æŽ’åº?å‰?:
+		System.out.println(Arrays.toString(ns));
+		// TODO:
+		// æŽ’åº?å?Ž:
+		System.out.println(Arrays.toString(ns));
+		if (Arrays.toString(ns).equals("[96, 89, 73, 65, 50, 36, 28, 18, 12, 8]")) {
+			System.out.println("æµ‹è¯•æˆ?åŠŸ");
+		} else {
+			System.out.println("æµ‹è¯•å¤±è´¥");
+		}
+	}
+}

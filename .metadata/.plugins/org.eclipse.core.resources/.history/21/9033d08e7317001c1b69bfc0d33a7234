@@ -1,0 +1,17 @@
+package IT.Java;
+
+/**
+ * char and String
+ */
+public class JoinChar {
+
+	public static void main(String[] args) {
+		// 请将下�?�一组int值视为字符的Unicode�?，把它们拼�?一个字符串：
+		int a = 72;
+		int b = 105;
+		int c = 65281;
+		String s = a + b + c;
+		System.out.println(s);
+	}
+
+}

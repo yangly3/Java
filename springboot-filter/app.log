@@ -1,0 +1,116 @@
+2021-09-17 21:46:16.067  INFO 8808 --- [restartedMain] IT.Java.Application                      : Starting Application on DENIS-WS with PID 8808 (D:\WorkPlace\Eclipse\springboot-filter\target\classes started by yangly_3@hotmail.com in D:\WorkPlace\Eclipse\springboot-filter)
+2021-09-17 21:46:16.070  INFO 8808 --- [restartedMain] IT.Java.Application                      : No active profile set, falling back to default profiles: default
+2021-09-17 21:46:16.126  INFO 8808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-17 21:46:16.126  INFO 8808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-17 21:46:17.878  INFO 8808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-17 21:46:17.891  INFO 8808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-17 21:46:17.892  INFO 8808 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-09-17 21:46:17.982  INFO 8808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-17 21:46:17.983  INFO 8808 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1856 ms
+2021-09-17 21:46:18.315  WARN 8808 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-09-17 21:46:18.317  INFO 8808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-17 21:46:18.553  INFO 8808 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : Checkpoint start
+2021-09-17 21:46:18.554  INFO 8808 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose start
+2021-09-17 21:46:18.561  INFO 8808 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose synched
+2021-09-17 21:46:18.586  INFO 8808 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose script done
+2021-09-17 21:46:18.687  INFO 8808 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose end
+2021-09-17 21:46:18.689  INFO 8808 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : Checkpoint end - txts: 1
+2021-09-17 21:46:18.731  INFO 8808 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-09-17 21:46:18.733  INFO 8808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-17 21:46:18.912  INFO 8808 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-17 21:46:19.342  WARN 8808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-17 21:46:19.351  INFO 8808 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-09-17 21:46:19.423  WARN 8808 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-09-17 21:46:19.426  WARN 8808 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException: Cannot invoke "io.micrometer.core.instrument.binder.tomcat.TomcatMetrics.close()" because "this.tomcatMetrics" is null
+2021-09-17 21:46:19.427  INFO 8808 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-17 21:46:19.429  INFO 8808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-17 21:46:19.469  INFO 8808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-17 21:46:19.472  INFO 8808 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-17 21:46:19.489  INFO 8808 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-17 21:46:19.492 ERROR 8808 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-09-17 22:36:03.427  INFO 2460 --- [restartedMain] IT.Java.Application                      : Starting Application on DENIS-WS with PID 2460 (D:\WorkPlace\Eclipse\springboot-filter\target\classes started by yangly_3@hotmail.com in D:\WorkPlace\Eclipse\springboot-filter)
+2021-09-17 22:36:03.429  INFO 2460 --- [restartedMain] IT.Java.Application                      : No active profile set, falling back to default profiles: default
+2021-09-17 22:36:03.480  INFO 2460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-17 22:36:03.481  INFO 2460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-17 22:36:05.157  INFO 2460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-17 22:36:05.170  INFO 2460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-17 22:36:05.170  INFO 2460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-09-17 22:36:05.253  INFO 2460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-17 22:36:05.254  INFO 2460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1773 ms
+2021-09-17 22:36:05.563  WARN 2460 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-09-17 22:36:05.565  INFO 2460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-17 22:36:05.810  INFO 2460 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose start
+2021-09-17 22:36:05.810  INFO 2460 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose synched
+2021-09-17 22:36:05.850  INFO 2460 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose script done
+2021-09-17 22:36:05.918  INFO 2460 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose end
+2021-09-17 22:36:05.922  INFO 2460 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-09-17 22:36:05.924  INFO 2460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-17 22:36:06.164  INFO 2460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-17 22:36:06.593  WARN 2460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-17 22:36:06.601  INFO 2460 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-09-17 22:36:06.667  WARN 2460 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-09-17 22:36:06.670  WARN 2460 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException: Cannot invoke "io.micrometer.core.instrument.binder.tomcat.TomcatMetrics.close()" because "this.tomcatMetrics" is null
+2021-09-17 22:36:06.671  INFO 2460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-17 22:36:06.673  INFO 2460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-17 22:36:06.725  INFO 2460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-17 22:36:06.728  INFO 2460 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-17 22:36:06.747  INFO 2460 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-17 22:36:06.749 ERROR 2460 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-12-31 01:00:11.655  INFO 12516 --- [restartedMain] IT.Java.Application                      : Starting Application on DENIS-WS with PID 12516 (D:\WorkPlace\Java\springboot-filter\target\classes started by yangly_3@hotmail.com in D:\WorkPlace\Java\springboot-filter)
+2021-12-31 01:00:11.658  INFO 12516 --- [restartedMain] IT.Java.Application                      : No active profile set, falling back to default profiles: default
+2021-12-31 01:00:11.705  INFO 12516 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-31 01:00:11.706  INFO 12516 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-31 01:00:12.920  INFO 12516 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-31 01:00:12.927  INFO 12516 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-31 01:00:12.928  INFO 12516 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-12-31 01:00:12.987  INFO 12516 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-31 01:00:12.988  INFO 12516 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1282 ms
+2021-12-31 01:00:13.177  WARN 12516 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-12-31 01:00:13.178  INFO 12516 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-31 01:00:13.327  INFO 12516 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose start
+2021-12-31 01:00:13.328  INFO 12516 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose synched
+2021-12-31 01:00:13.363  INFO 12516 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose script done
+2021-12-31 01:00:13.447  INFO 12516 --- [restartedMain] hsqldb.db.HSQLDB7BF739FFAF.ENGINE        : checkpointClose end
+2021-12-31 01:00:13.451  INFO 12516 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-12-31 01:00:13.454  INFO 12516 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-31 01:00:13.612  INFO 12516 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-31 01:00:13.917  INFO 12516 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-31 01:00:13.921  INFO 12516 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-12-31 01:00:13.979  INFO 12516 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-31 01:00:13.993  INFO 12516 --- [restartedMain] IT.Java.Application                      : Started Application in 3.032 seconds (JVM running for 3.909)
+2021-12-31 01:00:14.090  INFO 12516 --- [RMI TCP Connection(1)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-31 01:00:14.090  INFO 12516 --- [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-31 01:00:14.095  INFO 12516 --- [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-12-31 01:01:37.875  INFO 12516 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-31 01:01:37.876  INFO 12516 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-31 01:01:37.919  INFO 12516 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
